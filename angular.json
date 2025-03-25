@@ -115,12 +115,21 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
-            ],
+            "src/styles.scss"
+         ],
+          "postcss": {
+           "plugins": {
+          "tailwindcss": {},
+        "autoprefixer": {}
+     }
+   },
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "06bba400-3aee-40dd-878e-f06b0d2fecb7"
   }
 }
